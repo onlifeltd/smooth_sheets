@@ -5,7 +5,6 @@ import 'sheet_drag.dart';
 
 // TODO: Expose this as a public API.
 // TODO: Rename to SheetGestureProxy.
-@internal
 class TamperSheetGesture extends StatefulWidget {
   const TamperSheetGesture({
     super.key,
@@ -71,7 +70,6 @@ class _TamperSheetGestureScope extends InheritedWidget {
 
 // TODO: Expose this as a public API.
 // TODO: Rename to SheetGestureProxyMixin.
-@internal
 mixin SheetGestureTamperer {
   SheetGestureTamperer? _parent;
 

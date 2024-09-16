@@ -52,3 +52,4 @@ export 'sheet_physics.dart'
         kDefaultSheetSpring;
 export 'sheet_status.dart' show SheetStatus;
 export 'sheet_theme.dart' show SheetTheme, SheetThemeData;
+export 'sheet_gesture_tamperer.dart';
